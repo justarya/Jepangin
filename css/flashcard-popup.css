@@ -1,0 +1,60 @@
+#flashcard-popup .popup{
+  width:100%;
+  max-width: 720px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 200px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+  padding: 30px 0;
+  display: block;
+  box-sizing: border-box;
+  top: 0;
+  position: relative;
+  transition: 0.3s;
+  background-color: white;
+  border: 12px solid currentcolor;
+}
+#flashcard-popup .popup span{
+  color: black;
+}
+#flashcard-popup .popup .popup-main{
+  width: 200px;
+  float: left;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+}
+#flashcard-popup .popup .popup-main .image img{
+  max-width: 100%;
+}
+#flashcard-popup .popup .close{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: black;
+}
+
+#flashcard-popup .popup-desc{
+  width:calc(100% - 221px);
+  padding: 0 20px;
+  box-sizing: border-box;
+  float: left;
+}
+#flashcard-popup .popup-desc .kanji-text-sample{
+  padding-top: 20px;
+}
+#flashcard-popup .popup-desc .kanji-text-sample .type-japanese{
+  font-size: 25px;
+  line-height: 25px;
+  display: block;
+}
+#flashcard-popup .popup-desc .kanji-text-sample .type-japanese-spell{
+  font-size: 14px;
+  font-style: italic;
+  display: block;
+  padding-bottom: 3px;
+}
+#flashcard-popup .popup-desc .kanji-text-sample .type-indonesia{
+  font-size: 16px;
+  font-weight: bold;
+}

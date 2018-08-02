@@ -1,0 +1,52 @@
+/* navigation menu */
+.katakana-color-active{
+  background-color: #FFDD00;
+  color: black;
+}
+.katakana-color-active:hover{
+  background-color: #dbbe00;
+  color: black;
+}
+.katakana-color-card{
+  background-color: #FFDD00;
+  color: black;
+}
+.katakana-color{
+  color: #FFDD00;
+}
+/* hiragana */
+.hiragana-color-active{
+  background-color: #e60303;
+  color: white;
+}
+.hiragana-color-active{
+  background-color: #e60303;
+  color: white;
+}
+.hiragana-color-card{
+  border: 3px solid #e60303!important;
+  background-color: white;
+  color: #e60303;
+}
+.hiragana-color{
+  color: #e60303;
+}
+/* kanji */
+.kanji-color-active{
+  background-color: #000;
+  color: white;
+}
+.kanji-color-active{
+  background-color: #000;
+  color: white;
+}
+.kanji-color{
+  color: #000;
+}
+
+/* kanji level color */
+/* 1 */
+.kanji-color-level-1{
+  background-color: #12ECDD;
+  color: #006D67;
+}

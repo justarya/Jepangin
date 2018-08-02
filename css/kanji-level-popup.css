@@ -1,0 +1,122 @@
+.popup-background{
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 9;
+  display: none;
+  transition: 0.1s;
+  overflow: auto;
+
+}
+/* popup */
+#kanji-level-card-popup .popup{
+  border-radius: 25px;
+  padding: 10px;
+  max-width: 720px;
+  width: 100%;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+  margin: 0 auto;
+  padding: 30px 0px;
+  margin-top: 200px;
+  display: block;
+  box-sizing: border-box;
+  /* float: none; */
+  top: 0;
+  position: relative;
+  transition: 0.3s;
+}
+/* attribute */
+#kanji-level-card-popup .popup .close{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: black;
+}
+#kanji-level-card-popup .popup span{
+  font-family: 'Open Sans';
+}
+
+/* popup main */
+#kanji-level-card-popup .popup-main{
+  width: 200px;
+  float: left;
+  /* height: 300px; */
+  /* padding-right: 20px; */
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+
+}
+#kanji-level-card-popup .popup-main .title{
+  padding-top: 30px;
+  font-size: 90px;
+  text-align: center;
+  display: block;
+}
+#kanji-level-card-popup .popup-main .description{
+  padding-top: 0;
+  padding-bottom: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+#kanji-level-card-popup .popup .tag{
+  font-weight: bold;
+  border-bottom: 2px solid currentcolor;
+}
+
+/* popup desc */
+#kanji-level-card-popup .popup-desc{
+  width:calc(100% - 221px);
+  padding: 0 20px;
+  box-sizing: border-box;
+  float: left;
+}
+#kanji-level-card-popup .popup-desc span{
+  font-size: 18px;
+}
+
+#kanji-level-card-popup .popup-desc .type-japanese{
+  font-size: 20px;
+}
+#kanji-level-card-popup .popup-desc .type-japanese-kanji{
+  font-size: 25px;
+}
+/* popup desc kanji main*/
+#kanji-level-card-popup .popup-desc .kanji-main{
+  padding-bottom: 10px;
+}
+#kanji-level-card-popup .popup-desc .kanji-main .type-japanese{
+  padding-right: 10px;
+}
+
+/* popup desc kanji kun*/
+#kanji-level-card-popup .popup-desc .kanji-kun{
+  /* padding-bottom: 3px; */
+}
+/* popup desc kanji kun*/
+#kanji-level-card-popup .popup-desc .kanji-on{
+  padding-bottom: 30px;
+}
+
+/* kanji text sample */
+#kanji-level-card-popup .popup-desc .kanji-text-sample{
+  padding-top: 20px;
+}
+#kanji-level-card-popup .popup-desc .kanji-text-sample .type-japanese{
+  font-size: 25px;
+  line-height: 25px;
+  display: block;
+}
+#kanji-level-card-popup .popup-desc .kanji-text-sample .type-japanese-spell{
+  font-size: 14px;
+  font-style: italic;
+  display: block;
+  padding-bottom: 3px;
+}
+#kanji-level-card-popup .popup-desc .kanji-text-sample .type-indonesia{
+  font-size: 16px;
+  font-weight: bold;
+}
